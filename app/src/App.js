@@ -1,12 +1,12 @@
-import logo from './logo.svg';
+import React from 'react'; 
+import StationsList from './components/StationsList'
 import './App.css';
-import Stations from './components/Stations'
 
 function App() {
   return (
     <div className="App">
       <h1>FIND YOUR STATIONS</h1>
-      <Stations/>
+      <StationsList/>
     </div>
   );
 }
